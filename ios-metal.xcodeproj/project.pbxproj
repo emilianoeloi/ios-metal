@@ -19,6 +19,7 @@
 		93C1C2FB1CCF0A800088F346 /* MetalPerformanceShaders.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93C1C2FA1CCF0A800088F346 /* MetalPerformanceShaders.framework */; };
 		93C1C2FD1CCF0D350088F346 /* MetalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93C1C2FC1CCF0D350088F346 /* MetalViewController.swift */; };
 		93C1C2FF1CCF0E210088F346 /* MetalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93C1C2FE1CCF0E210088F346 /* MetalView.swift */; };
+		93C1C3011CCF12BA0088F346 /* Shaders.metal in Sources */ = {isa = PBXBuildFile; fileRef = 93C1C3001CCF12BA0088F346 /* Shaders.metal */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,7 @@
 		93C1C2FA1CCF0A800088F346 /* MetalPerformanceShaders.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MetalPerformanceShaders.framework; path = System/Library/Frameworks/MetalPerformanceShaders.framework; sourceTree = SDKROOT; };
 		93C1C2FC1CCF0D350088F346 /* MetalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MetalViewController.swift; sourceTree = "<group>"; };
 		93C1C2FE1CCF0E210088F346 /* MetalView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MetalView.swift; path = ../MetalView.swift; sourceTree = "<group>"; };
+		93C1C3001CCF12BA0088F346 /* Shaders.metal */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.metal; path = Shaders.metal; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +123,7 @@
 				93C1C2D11CCF077C0088F346 /* LaunchScreen.storyboard */,
 				93C1C2D41CCF077C0088F346 /* Info.plist */,
 				93C1C2FC1CCF0D350088F346 /* MetalViewController.swift */,
+				93C1C3001CCF12BA0088F346 /* Shaders.metal */,
 			);
 			path = "ios-metal";
 			sourceTree = "<group>";
@@ -279,6 +282,7 @@
 				93C1C2CB1CCF077B0088F346 /* ViewController.swift in Sources */,
 				93C1C2C91CCF077B0088F346 /* AppDelegate.swift in Sources */,
 				93C1C2FD1CCF0D350088F346 /* MetalViewController.swift in Sources */,
+				93C1C3011CCF12BA0088F346 /* Shaders.metal in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
