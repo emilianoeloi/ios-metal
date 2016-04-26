@@ -5,8 +5,6 @@
    <BuildAction
       parallelizeBuildables = "YES"
       buildImplicitDependencies = "YES">
-<<<<<<< HEAD
-<<<<<<< HEAD
       <BuildActionEntries>
          <BuildActionEntry
             buildForTesting = "YES"
@@ -23,10 +21,6 @@
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
-=======
->>>>>>> 3e5f374... Initial Commit
-=======
->>>>>>> 3e5f374... Initial Commit
    </BuildAction>
    <TestAction
       buildConfiguration = "Debug"
@@ -34,8 +28,6 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
-<<<<<<< HEAD
-<<<<<<< HEAD
          <TestableReference
             skipped = "NO">
             <BuildableReference
@@ -66,12 +58,8 @@
             ReferencedContainer = "container:ios-metal.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
-=======
       </Testables>
->>>>>>> 3e5f374... Initial Commit
-=======
       </Testables>
->>>>>>> 3e5f374... Initial Commit
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -85,8 +73,6 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
-<<<<<<< HEAD
-<<<<<<< HEAD
       <BuildableProductRunnable
          runnableDebuggingMode = "0">
          <BuildableReference
@@ -97,10 +83,6 @@
             ReferencedContainer = "container:ios-metal.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
-=======
->>>>>>> 3e5f374... Initial Commit
-=======
->>>>>>> 3e5f374... Initial Commit
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -110,8 +92,6 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
-<<<<<<< HEAD
-<<<<<<< HEAD
       <BuildableProductRunnable
          runnableDebuggingMode = "0">
          <BuildableReference
@@ -122,10 +102,6 @@
             ReferencedContainer = "container:ios-metal.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
-=======
->>>>>>> 3e5f374... Initial Commit
-=======
->>>>>>> 3e5f374... Initial Commit
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">

@@ -14,6 +14,11 @@
 		93C1C2D31CCF077C0088F346 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93C1C2D11CCF077C0088F346 /* LaunchScreen.storyboard */; };
 		93C1C2DE1CCF077C0088F346 /* ios_metalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93C1C2DD1CCF077C0088F346 /* ios_metalTests.swift */; };
 		93C1C2E91CCF077C0088F346 /* ios_metalUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93C1C2E81CCF077C0088F346 /* ios_metalUITests.swift */; };
+		93C1C2F71CCF0A760088F346 /* Metal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93C1C2F61CCF0A760088F346 /* Metal.framework */; };
+		93C1C2F91CCF0A7B0088F346 /* MetalKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93C1C2F81CCF0A7B0088F346 /* MetalKit.framework */; };
+		93C1C2FB1CCF0A800088F346 /* MetalPerformanceShaders.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93C1C2FA1CCF0A800088F346 /* MetalPerformanceShaders.framework */; };
+		93C1C2FD1CCF0D350088F346 /* MetalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93C1C2FC1CCF0D350088F346 /* MetalViewController.swift */; };
+		93C1C2FF1CCF0E210088F346 /* MetalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93C1C2FE1CCF0E210088F346 /* MetalView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +52,11 @@
 		93C1C2E41CCF077C0088F346 /* ios-metalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ios-metalUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		93C1C2E81CCF077C0088F346 /* ios_metalUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ios_metalUITests.swift; sourceTree = "<group>"; };
 		93C1C2EA1CCF077C0088F346 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93C1C2F61CCF0A760088F346 /* Metal.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Metal.framework; path = System/Library/Frameworks/Metal.framework; sourceTree = SDKROOT; };
+		93C1C2F81CCF0A7B0088F346 /* MetalKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MetalKit.framework; path = System/Library/Frameworks/MetalKit.framework; sourceTree = SDKROOT; };
+		93C1C2FA1CCF0A800088F346 /* MetalPerformanceShaders.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MetalPerformanceShaders.framework; path = System/Library/Frameworks/MetalPerformanceShaders.framework; sourceTree = SDKROOT; };
+		93C1C2FC1CCF0D350088F346 /* MetalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MetalViewController.swift; sourceTree = "<group>"; };
+		93C1C2FE1CCF0E210088F346 /* MetalView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MetalView.swift; path = ../MetalView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +64,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				93C1C2FB1CCF0A800088F346 /* MetalPerformanceShaders.framework in Frameworks */,
+				93C1C2F91CCF0A7B0088F346 /* MetalKit.framework in Frameworks */,
+				93C1C2F71CCF0A760088F346 /* Metal.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,6 +90,9 @@
 		93C1C2BC1CCF077B0088F346 = {
 			isa = PBXGroup;
 			children = (
+				93C1C2FA1CCF0A800088F346 /* MetalPerformanceShaders.framework */,
+				93C1C2F81CCF0A7B0088F346 /* MetalKit.framework */,
+				93C1C2F61CCF0A760088F346 /* Metal.framework */,
 				93C1C2C71CCF077B0088F346 /* ios-metal */,
 				93C1C2DC1CCF077C0088F346 /* ios-metalTests */,
 				93C1C2E71CCF077C0088F346 /* ios-metalUITests */,
@@ -97,12 +113,14 @@
 		93C1C2C71CCF077B0088F346 /* ios-metal */ = {
 			isa = PBXGroup;
 			children = (
+				93C1C2FE1CCF0E210088F346 /* MetalView.swift */,
 				93C1C2C81CCF077B0088F346 /* AppDelegate.swift */,
 				93C1C2CA1CCF077B0088F346 /* ViewController.swift */,
 				93C1C2CC1CCF077B0088F346 /* Main.storyboard */,
 				93C1C2CF1CCF077C0088F346 /* Assets.xcassets */,
 				93C1C2D11CCF077C0088F346 /* LaunchScreen.storyboard */,
 				93C1C2D41CCF077C0088F346 /* Info.plist */,
+				93C1C2FC1CCF0D350088F346 /* MetalViewController.swift */,
 			);
 			path = "ios-metal";
 			sourceTree = "<group>";
@@ -193,6 +211,7 @@
 				TargetAttributes = {
 					93C1C2C41CCF077B0088F346 = {
 						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 5ZFLG4EDBU;
 					};
 					93C1C2D81CCF077C0088F346 = {
 						CreatedOnToolsVersion = 7.3;
@@ -256,8 +275,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				93C1C2FF1CCF0E210088F346 /* MetalView.swift in Sources */,
 				93C1C2CB1CCF077B0088F346 /* ViewController.swift in Sources */,
 				93C1C2C91CCF077B0088F346 /* AppDelegate.swift in Sources */,
+				93C1C2FD1CCF0D350088F346 /* MetalViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -401,10 +422,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "ios-metal/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "Globo.com.ios-metal";
+				PRODUCT_BUNDLE_IDENTIFIER = org.bocamuchas.emiliano.metal;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -412,10 +436,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "ios-metal/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "Globo.com.ios-metal";
+				PRODUCT_BUNDLE_IDENTIFIER = org.bocamuchas.emiliano.metal;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
